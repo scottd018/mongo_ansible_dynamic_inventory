@@ -15,11 +15,6 @@ MONGO_PORT = int(os.environ.get("MONGO_PORT"))
 MONGO_DATABASE = os.environ.get("MONGO_DATABASE")
 MONGO_USERNAME = os.environ.get("MONGO_USERNAME")
 MONGO_PASSWORD = os.environ.get("MONGO_PASSWORD")
-#MONGO_HOST = "192.168.89.209"
-#MONGO_PORT = 27017
-#MONGO_DATABASE = "citi"
-#MONGO_USERNAME = "admin"
-#MONGO_PASSWORD = "smartvm"
 
 
 def get_group_hosts(host_objects):
